@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { GithubService } from '../../services/github.service';
 
 @Component({
     selector: 'main',
@@ -7,4 +8,8 @@ import { Component } from "@angular/core";
 })
 export class MainComponent {
     
+    constructor(ghs: GithubService){
+        ghs.getRepos();
+    }
+
 }
