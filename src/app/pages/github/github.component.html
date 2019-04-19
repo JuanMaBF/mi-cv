@@ -1,0 +1,14 @@
+<div class="container">
+
+    <h1>Mis repositorios de GitHub</h1>
+
+    <div class="repos-container">
+        <div class="repo" *ngFor="let rep of repos">
+            <div class="repo-title">
+                {{rep.name}}
+                <a href="https://github.com/JuanMaBF/{{rep.name}}" target="_blank" class="repo-link"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+    </div>
+
+</div>

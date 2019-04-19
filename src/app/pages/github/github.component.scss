@@ -1,0 +1,28 @@
+.repos-container {
+    padding-left: 19px;
+    border-left: solid 3px grey;
+}
+
+@media (min-width: 992px) {
+    .repos-container {
+        margin-left: 40px;
+    }
+}
+
+.repo {
+    margin-bottom: 10px;
+}
+
+.repo-title {
+    color: #3f51b5;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.repo-link {
+    color: rgba(0,0,0,.54) !important;
+}
+
+.repo-link:hover {
+    color: orange;
+}

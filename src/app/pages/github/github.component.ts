@@ -8,8 +8,12 @@ import { GithubService } from '../../services/github.service';
 })
 export class GithubComponent {
     
+    public repos: any[];
+
     constructor(private ghService: GithubService) {
-        
+        this.ghService
+            .getRepos()
+            .subscribe(rta => {this.repos = rta; console.log(rta);});
     }
 
 }
