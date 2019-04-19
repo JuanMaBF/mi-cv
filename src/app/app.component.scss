@@ -1,8 +1,12 @@
-header {
-    background: #3f51b5;
+/* Header */
+header, footer {
     color: #FFF;
     padding: 20px;
     width: calc(100vw - 40px);
+}
+
+header {
+    background: #3f51b5;
 }
 
 .links-bar {
@@ -32,4 +36,21 @@ header {
     display: block;
     text-align: center;
     margin-top: 10px;
+}
+
+footer {
+    background: #545353;
+}
+
+.footer-title {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.section {
+    text-align: center;
+    font-size: 20px;
 }

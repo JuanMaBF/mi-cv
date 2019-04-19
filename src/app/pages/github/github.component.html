@@ -3,6 +3,7 @@
     <h1>Mis repositorios de GitHub</h1>
 
     <div class="repos-container">
+        <img src="../../../assets/spinner.gif" class="spinner" [hidden]="spinnerHidden"/>
         <div class="repo" *ngFor="let rep of repos">
             <div class="repo-title">
                 {{rep.name}}
@@ -12,3 +13,5 @@
     </div>
 
 </div>
+
+<br>
